@@ -1,0 +1,164 @@
+.header {
+    
+    & &__logo {
+        @import "vars";
+        background-color: $bgFondo;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            padding-left: 50px;
+        }
+        & &__icons {
+            padding: 30px;
+            
+          
+        }
+    }
+    & &__contenedor {
+        .collapse {
+            .bloque__h2 {
+                font-family: sans-serif;
+            }
+            .bloque__listas {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .listas__nav {
+                    list-style: none;
+                    text-align: center;
+                    li {
+                        padding-bottom: 10px;
+                        
+                        a {
+                            text-decoration: none;
+                            font-size: 25px;
+                        }
+                    }   
+                }
+            }
+
+            
+
+        }
+    }
+}
+.principal__img {
+    .contenedor__portada {
+        img {
+            height: 600px;
+        }
+        .text__portada {
+            color: black;
+            text-align: left;
+            padding-top: 50px;
+            p {
+                font-size: 25px;
+            }
+            span {
+                @import "vars";
+                background-color: $bgFondo;
+                color:$colorSecundario ;
+                font-size: 25px;
+
+            }
+           
+        }
+
+    }
+}
+.contenedor__card {
+    @import "vars";
+    background-color: $bgFondo;
+    .card {
+        background-image: linear-gradient(to left,blue,gray,white);
+    }
+}
+.contenedor__iconos {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    div {
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        ul {
+            list-style: none
+        }
+    }
+    
+
+}
+.footer__ind {
+    @import "vars";
+    color: $colorSecundario;
+    background-color: $bgFondo;
+    height: 150px;
+    padding:10px;
+}
+               /*Nosotros*/
+          
+.contenedor__nosotros {
+   background-color: rgb(16, 16, 117);
+   text-align: center;
+   height: 550px;
+   h1 {
+       color: rgb(123, 120, 120);
+   }
+   p {
+       color: rgb(123, 120, 120);
+    
+       font-size: 30px;
+   }
+} 
+               /*Servicios*/   
+
+.servicios__contenedor {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    .servicios__texto {
+        p {
+            font-size: 20px;
+        }
+    }
+}
+.contenedor__bis {
+    background-color: gray;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    .servicios__texto {
+        p {
+            font-size: 20px;
+        }
+    }
+    
+
+
+}
+              /*Contactos*/
+
+.box__contacto {
+    background-color: gray;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    .box__formu{
+        border: solid 2px black;
+        width: 320px;
+        height: 550px;
+        padding: 10px;
+        form {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+}              

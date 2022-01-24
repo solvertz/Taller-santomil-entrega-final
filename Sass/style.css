@@ -1,0 +1,195 @@
+.header .header__logo {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__logo img {
+  padding-left: 50px;
+}
+
+.header .header__logo .header .header__logo__icons {
+  padding: 30px;
+}
+
+.header .header__contenedor .collapse .bloque__h2 {
+  font-family: sans-serif;
+}
+
+.header .header__contenedor .collapse .bloque__listas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .header__contenedor .collapse .bloque__listas .listas__nav {
+  list-style: none;
+  text-align: center;
+}
+
+.header .header__contenedor .collapse .bloque__listas .listas__nav li {
+  padding-bottom: 10px;
+}
+
+.header .header__contenedor .collapse .bloque__listas .listas__nav li a {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.principal__img .contenedor__portada img {
+  height: 600px;
+}
+
+.principal__img .contenedor__portada .text__portada {
+  color: black;
+  text-align: left;
+  padding-top: 50px;
+}
+
+.principal__img .contenedor__portada .text__portada p {
+  font-size: 25px;
+}
+
+.principal__img .contenedor__portada .text__portada span {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+
+.contenedor__card {
+  background-color: black;
+}
+
+.contenedor__card .card {
+  background-image: -webkit-gradient(linear, right top, left top, from(blue), color-stop(gray), to(white));
+  background-image: linear-gradient(to left, blue, gray, white);
+}
+
+.contenedor__iconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 300px;
+}
+
+.contenedor__iconos div {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.contenedor__iconos div ul {
+  list-style: none;
+}
+
+.footer__ind {
+  color: white;
+  background-color: black;
+  height: 150px;
+  padding: 10px;
+}
+
+/*Nosotros*/
+.contenedor__nosotros {
+  background-color: #101075;
+  text-align: center;
+  height: 550px;
+}
+
+.contenedor__nosotros h1 {
+  color: #7b7878;
+}
+
+.contenedor__nosotros p {
+  color: #7b7878;
+  font-size: 30px;
+}
+
+/*Servicios*/
+.servicios__contenedor {
+  background-color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.servicios__contenedor .servicios__texto p {
+  font-size: 20px;
+}
+
+.contenedor__bis {
+  background-color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor__bis .servicios__texto p {
+  font-size: 20px;
+}
+
+/*Contactos*/
+.box__contacto {
+  background-color: gray;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.box__contacto .box__formu {
+  border: solid 2px black;
+  width: 320px;
+  height: 550px;
+  padding: 10px;
+}
+
+.box__contacto .box__formu form {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=style.css.map */

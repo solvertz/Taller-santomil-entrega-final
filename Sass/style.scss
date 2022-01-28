@@ -96,6 +96,8 @@
     height: 150px;
     padding:10px;
 }
+
+
                /*Nosotros*/
           
 .contenedor__nosotros {
@@ -126,20 +128,15 @@
         }
     }
 }
+
+
 .contenedor__bis {
-    background-color: gray;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
+   @extend .servicios__contenedor;
     .servicios__texto {
         p {
             font-size: 20px;
         }
     }
-    
-
-
 }
               /*Contactos*/
 
@@ -161,4 +158,45 @@
         }
 
     }
-}              
+}  
+@mixin botton {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 1px solid black;
+    
+}
+.botton--ligth {
+    @include botton;
+    background-color: white;
+    
+}
+/* maps */    
+$red-social: (
+    facebook: white,
+    instagram: rgb(12, 6, 105),
+    envelope: rgb(130, 84, 230),
+);
+@each $nombre, $valor in $red-social {
+    .bi-#{$nombre} {
+        background-color: $valor;
+
+    }
+    
+} 
+/* maps get */
+   $colores:(
+       princip: blue,
+       base: black,
+       fondol: lightblue,
+   );
+
+   .colores-muestra {
+       color: map-get($colores, princip );
+       
+   }
+   
+  
+
+
+   
